@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Montserrat;
+    background-image: url("https://images.pexels.com/photos/3859259/pexels-photo-3859259.jpeg?cs=srgb&dl=pexels-alexandra-jitariuc-3859259.jpg&fm=jpg");
+  }
+  .container {
+    text-align: center;
+    height: 100vh;
+    weight: 100%; 
+    padding:25px;
+  }
+  .page-title {
+    color: #FFD700; ;
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+  .page-logo {
+    width: 200px;  
+  }
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  button{
+    weight: 100%; 
+    border: 2px solid #FFD700;
+    padding: 10px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff; 
+    background-color: #FFD700;
+    margin-top: 20px; 
+  }
+  .main{
+    border: 2px solid #FFD700 ;
+    width: 75vh;  
+    height: 54vh;
+    margin: 150px auto; 
+  }
+  button:hover {
+    background-color: #FFA500;
+    border-color: #FFA500;
+  }
+  .title-conversor{
+    display: block;
+    text-align: center;
+    padding-right: 180px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: #FFD700; 
+    padding-bottom: 10px;
+  }
+  .temps{
+    border-radius: 25px;
+    font-weight: 700;
+    color: rgb(55,55,55);
+    height:30px;
+    weight: 20px;
+    font-size: 1rem;
+    text-align-last:center;
+  }
+  .tempsConverter{
+    border-radius: 25px;
+    font-weight: 700;
+    color: rgb(55,55,55);
+    height:30px;
+    weight: 20px;
+    font-size: 1rem;
+    text-align-last:center;
+    margin-right: 10px; 
+  }
+  .first-change, .second-change {
+    display: flex; 
+    justify-content: center;
+  }
+  .title{
+   margin-right: 60px; 
+  }
+  .title2{
+  margin-right: 6rem;
+  }
+  #number-usuario{
+    border-radius: 25px;
+    height:30px;
+    padding: 0.45rem; 
+    font-size: 1rem;
+    text-align-last:center;
+    margin-left: 10px;
+  }
+  .wrapper {
+      position: relative;
+  }
+  input {
+    padding-left: 48px;
+    border-radius: 25px;
+    height:30px;
+  }
+  .wrapper span {
+    position: absolute;
+    left: 80px;
+    top: 5px;
+  }
+  

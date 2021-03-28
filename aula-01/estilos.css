@@ -10,7 +10,6 @@
   .container {
     text-align: center;
     height: 100vh;
-    weight: 100%; 
     padding:25px;
   }
   .page-title {
@@ -31,7 +30,6 @@
     right:10px;
   }
   button{
-    weight: 100%; 
     border: 2px solid #FFD700;
     padding: 10px;
     border-radius: 25px;
@@ -65,7 +63,6 @@
     font-weight: 700;
     color: rgb(55,55,55);
     height:30px;
-    weight: 20px;
     font-size: 1rem;
     text-align-last:center;
   }
@@ -74,7 +71,6 @@
     font-weight: 700;
     color: rgb(55,55,55);
     height:30px;
-    weight: 20px;
     font-size: 1rem;
     text-align-last:center;
     margin-right: 10px; 

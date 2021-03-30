@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Imersão Dev - Aula 03</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg"
+                class="page-logo" alt="">
+            <h3 class="page-title">
+                Adivinhar número
+            </h3>
+
+
+            <ul class="regras">
+                <li> Pense em um número entre 0 e 50 </li>
+                <li> O programa vai tentar adivinhar qual foi o número pensado </li>
+                <li> Mude os sinais de acordo com o número que aparecer na tela</li>
+            </ul>
+            <p class="pergunta"> O número na tela é =, >, <, do que o número pensado? </p>
+                    <div>
+                        <p id="numero">25
+                        <p>
+                            <select name="compara" class="comparar">
+                                <option value="igual">=</option>
+                                <option value="maior">></option>
+                                <option value="menor">
+                                    < </option>
+                                        <input type="button" value="Enviar" class="btn-enviar" />
+
+                            </select>
+                    </div>
+                    <p class="fraseAcerto"></p>
+        </section>
+
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+        <div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

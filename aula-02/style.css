@@ -1,0 +1,85 @@
+body {
+    font-family: Montserrat; 
+    min-height: 854px;
+    background-color: rgb(48,48,48);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+ .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    padding-top: 5px; 
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+.page-guidance{
+  color: #ffffff; 
+  margin-top: 10px; 
+}
+
+input {
+  margin: .4rem;
+  vertical-align: middle;
+}
+
+#imgPrincipal{
+  padding-bottom: 20px; 
+  padding-top: 10px; 
+}
+
+label{
+  font-weight: 500;
+  color: #ffffff;
+}
+
+button{
+  box-sizing: border-box;
+  border: 2px solid #3c86f9; 
+  padding: 10px;
+  border-radius: 5px; 
+  text-transform: uppercase;
+  font-weight:700;
+  font-size: 1rem; 
+  color: #ffffff; 
+  background-color: #3c86f9;
+  margin-top: 20px; 
+  margin-bottom: 15px;
+}
+button:hover {
+  background-color: #6da5fb;
+  border-color: #6da5fb;
+  cursor: pointer;
+}
+
+.btn-change{
+  margin-left: 10px;
+}
+
+#resultado{
+    color: #ffffff; 
+    font-size: 1.2rem; 
+    font-weight: 500;
+}

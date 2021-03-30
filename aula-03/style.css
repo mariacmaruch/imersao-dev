@@ -1,0 +1,106 @@
+body {
+    font-family: Montserrat;
+    background-color: #2E2E2E;
+  }
+
+main{
+  border: 2px solid #40c4ff ;
+  width: 75vh;  
+  height: 55vh;
+  margin: 150px auto; 
+}
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh; 
+  }
+  
+  .page-title {
+    color: #40c4ff;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-weight: 700;
+
+  }
+    
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+}
+
+.regras{
+  text-align: justify;
+  color: white;
+  font-size: 1rem; 
+}
+
+.regras li{
+  padding-bottom: 10px; 
+}
+
+#numero {
+  background-color: white; 
+  font-size: 1rem;
+  color: rgb(35, 35, 35);
+  width: 2rem;
+  padding: 0.60rem;
+  margin: 0.05rem 1.25rem 1.75rem 0; 
+  margin-left:10.3rem; 
+  border-radius: 25px;
+}
+
+.comparar{
+  position: relative; 
+  bottom: 60px;
+  left: 34px; 
+  height:30px;
+  width: 40px;
+  border-radius: 25px;
+  text-align-last:center;
+}
+
+.pergunta{
+  text-align: center;
+  color: white;
+}
+
+.btn-enviar{
+  position: relative; 
+  bottom: 60px;
+  left: 50px; 
+  border: 2px solid #40c4ff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff; 
+  background-color: #40c4ff;
+  padding: 5px; 
+}
+
+.btn-enviar:hover {
+  background-color: #3399ff;
+  border-color: #3399ff;
+  cursor: pointer;
+}
+
+.fraseAcerto{
+    position: relative;
+    bottom: 55px;
+    color: #40c4ff;  
+    text-align: center;
+    font-weight: 700;
+}

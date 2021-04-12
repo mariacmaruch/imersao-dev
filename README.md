@@ -17,3 +17,7 @@ Repositório dedicado aos estudos relacionados a Imersão DEV.
 * Aulas 7, 8 e 9 - Super Trunfo 
 
 * Aula 10 - Certificado
+
+Certificado pode ser visualizado por meio deste link também: 
+https://codepen.io/mariacsales/pen/rNjJjPd
+

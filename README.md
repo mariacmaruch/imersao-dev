@@ -1,11 +1,19 @@
-# Imersão DEV - Alura 
+# Imersão Dev- Alura 
 
 Repositório dedicado aos estudos relacionados a Imersão DEV.
 
 ## Aulas: 
 
-Aula 1 - Conversor de Moedas e Variáveis
+* Aula 1 - Conversor de Temperatura 
 
-**Desafios dessa aula!**
-* Criar um programa que converta libra em dolar, ou graus Celsius para Fahrenheit;
-* Exibir o resultado da conversão na tela, no lugar da função alert.
+* Aula 2 - Jogo The Office 
+
+* Aula 3 - Mentalista
+
+* Aulas 4 e 5 - Aluraflix 
+
+* Aula 6 - Tabela de classificação 
+
+* Aulas 7, 8 e 9 - Super Trunfo 
+
+* Aula 10 - Certificado
